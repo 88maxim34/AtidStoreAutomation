@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Environment>
+
+    <!--TimeOut-->
+    <ImplicitlyWait>10</ImplicitlyWait>
+    <ExplicitlyWait>15</ExplicitlyWait>
+
+    <!--Url-->
+    <AtidStoreUrl>https://atid.store/</AtidStoreUrl>
+
+    <!--BrowserTypes-->
+    <BrowserName>chrome</BrowserName>
+
+    <!--API-->
+    <urlAPI>http://localhost:3000</urlAPI>
+    <api-user>admin</api-user>
+    <api-pass>admin</api-pass>
+
+</Environment>
