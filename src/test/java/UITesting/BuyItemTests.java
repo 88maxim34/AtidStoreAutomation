@@ -35,5 +35,6 @@ public class BuyItemTests extends CommonOps {
         headerPage.clickCartIcon();
         cartPage.deleteItemFromCart("Dark Brown Jeans");
         cartPage.verifyItemDeleted();
+        System.out.println("maxim");
     }
 }
