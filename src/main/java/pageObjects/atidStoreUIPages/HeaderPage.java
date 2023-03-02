@@ -1,6 +1,7 @@
 package pageObjects.atidStoreUIPages;
 
 import extentions.UIActions;
+import io.qameta.allure.Step;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -14,6 +15,7 @@ public class HeaderPage extends UIActions {
     @FindBy(css = "div[id = \"ast-site-header-cart\"]")
     private static WebElement cartIcon;
 
+    @Step("Header option picker")
     public void headerItemPicker(String headerItem){
         for(WebElement headerOption : headerList){
             if(headerOption.getText().equals(headerItem)){
@@ -23,6 +25,7 @@ public class HeaderPage extends UIActions {
         }
     }
 
+    @Step("Click home page cart icon")
     public void clickCartIcon(){
         UIActions.click(cartIcon);
     }
