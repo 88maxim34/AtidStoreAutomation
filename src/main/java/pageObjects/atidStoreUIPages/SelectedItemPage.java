@@ -16,7 +16,7 @@ public class SelectedItemPage {
         addToCart.click();
     }
 
-    public void viewCartItemClick() {
+    public void viewCartItemButtonClick() {
         viewCart_Button.click();
     }
 }
